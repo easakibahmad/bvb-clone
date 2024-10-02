@@ -18,6 +18,9 @@ const Layout = () => {
         <Link className="layout__link" to="beauty-curve-home">
           BeautyCurveHome
         </Link>
+        <Link className="layout__link" to="kmp-algo">
+          KMPAlgo
+        </Link>
       </div>
 
       <div className="layout__outlet">

@@ -5,6 +5,7 @@ import BVBNav from "../components/BVBNav";
 import NavLgDropDown from "../components/NavLgDropdown";
 import SABurger from "../components/SABurger";
 import BeautyCurveHome from "../components/BeautyCurveHome";
+import KMPAlgo from "../components/KMPAlgo/KMPAlgo";
 
 export const router = createBrowserRouter([
   {
@@ -26,6 +27,10 @@ export const router = createBrowserRouter([
       {
         path: "beauty-curve-home",
         element: <BeautyCurveHome />,
+      },
+      {
+        path: "kmp-algo",
+        element: <KMPAlgo />,
       },
     ],
   },
