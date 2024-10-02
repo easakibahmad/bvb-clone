@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { kmpSearch } from "../../utils/KMPAlgo/kmp";
+import { kmpSearch } from "../../utils/kmp";
 import "./KMPAlgo.css";
 
 const KMPAlgo: React.FC = () => {
