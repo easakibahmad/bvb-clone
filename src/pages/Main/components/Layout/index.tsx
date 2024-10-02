@@ -21,6 +21,9 @@ const Layout = () => {
         <Link className="layout__link" to="kmp-algo">
           KMPAlgo
         </Link>
+        <Link className="layout__link" to="n-queens">
+          NQueens
+        </Link>
       </div>
 
       <div className="layout__outlet">
