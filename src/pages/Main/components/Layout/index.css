@@ -1,0 +1,39 @@
+.layout__links {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  height: 60px;
+  width: 100%;
+}
+
+.layout__link {
+  color: white;
+  font-weight: bold;
+}
+
+.layout__outlet {
+  padding: 10px;
+  background-color: white;
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 800px;
+  width: 100%;
+  overflow-y: auto;
+  margin: auto auto;
+}
+
+.layout__footer img {
+  width: 28px;
+  height: 28px;
+}
+.layout__footer {
+  color: white;
+  font-weight: 500;
+  font-size: 24px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
