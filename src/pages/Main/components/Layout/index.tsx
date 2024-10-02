@@ -15,6 +15,9 @@ const Layout = () => {
         <Link className="layout__link" to="sa-burger">
           SABurger
         </Link>
+        <Link className="layout__link" to="beauty-curve-home">
+          BeautyCurveHome
+        </Link>
       </div>
 
       <div className="layout__outlet">

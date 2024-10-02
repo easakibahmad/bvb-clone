@@ -1,0 +1,108 @@
+.beauty-curve__header {
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+}
+
+.beauty-curve__logo img {
+  width: 100px;
+}
+
+.beauty-curve__navbar {
+  background-color: white;
+  width: 100%;
+}
+.beauty-curve__nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.beauty-curve__nav-links li {
+  margin-left: 30px;
+}
+
+.beauty-curve__nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.beauty-curve__nav-links a:hover {
+  color: #f55951;
+}
+
+.beauty-curve__hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 50px;
+  background-color: #f9f9f9;
+  position: relative;
+  overflow: hidden;
+}
+
+.beauty-curve__hero-content {
+  max-width: 50%;
+}
+
+.beauty-curve__hero-content h4 {
+  color: #f55951;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.beauty-curve__hero-content h1 {
+  font-size: 50px;
+  color: #2d2d2d;
+  margin-bottom: 20px;
+}
+
+.beauty-curve__hero-content p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.beauty-curve__cta-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.beauty-curve__btn-primary {
+  background-color: #f55951;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+.beauty-curve__btn-primary:hover {
+  background-color: #e04845;
+}
+
+.beauty-curve__watch-story {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+}
+
+.beauty-curve__play-icon {
+  background-color: #f55951;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.beauty-curve__hero-image img {
+  width: 500px;
+  border-radius: 10px;
+}
