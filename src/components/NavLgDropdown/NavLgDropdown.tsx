@@ -1,4 +1,4 @@
-import "./index.css";
+import "./NavLgDropdown.css";
 
 const NavLgDropDown = () => {
   return (

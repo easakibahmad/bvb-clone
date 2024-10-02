@@ -1,4 +1,4 @@
-import "./index.css";
+import "./SABurger.css";
 
 const SABurger = () => {
   return (

@@ -1,4 +1,4 @@
-import "./index.css";
+import "./BVBNav.css";
 
 const BVBNav = () => {
   return (

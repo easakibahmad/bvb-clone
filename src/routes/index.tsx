@@ -1,12 +1,15 @@
 import { createBrowserRouter } from "react-router-dom";
 
-import MainPage from "../pages/Main";
-import BVBNav from "../components/BVBNav";
-import NavLgDropDown from "../components/NavLgDropdown";
-import SABurger from "../components/SABurger";
-import BeautyCurveHome from "../components/BeautyCurveHome";
-import KMPAlgo from "../components/KMPAlgo/KMPAlgo";
-import NQueens from "../components/NQueens/NQueens";
+import { MainPage } from "../pages";
+
+import {
+  BeautyCurveHome,
+  BVBNav,
+  NavLgDropDown,
+  SABurger,
+  KMPAlgo,
+  NQueens,
+} from "../components";
 
 export const router = createBrowserRouter([
   {
