@@ -10,6 +10,7 @@ import {
   KMPAlgo,
   NQueens,
   MergeSort,
+  FlexOne,
 } from "../components";
 
 export const router = createBrowserRouter([
@@ -44,6 +45,10 @@ export const router = createBrowserRouter([
       {
         path: "merge-sort",
         element: <MergeSort />,
+      },
+      {
+        path: "flex-one",
+        element: <FlexOne />,
       },
     ],
   },

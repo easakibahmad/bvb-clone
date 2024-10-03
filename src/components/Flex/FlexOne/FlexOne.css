@@ -1,0 +1,54 @@
+  .flex-one__container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .flex-one__header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    flex: 0 0 auto; /* Header should not grow or shrink */
+  }
+  
+  .flex-one__main-content {
+    display: flex;
+    flex: 1; /* Fill the available space */
+    flex-direction: row;
+  }
+  
+  .flex-one__sidebar {
+    background-color: #f4f4f4;
+    width: 250px;
+    padding: 20px;
+    flex: 0 0 250px; /* Fixed width for sidebar */
+  }
+  
+  .flex-one__content {
+    flex: 1; /* Main content should take the remaining space */
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .flex-one__footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    flex: 0 0 auto; /* Footer should not grow or shrink */
+  }
+  
+  /* Responsive behavior for smaller screens */
+  @media (max-width: 768px) {
+    .flex-one__main-content {
+      flex-direction: column;
+    }
+    
+    .flex-one__sidebar {
+      width: 100%;
+      flex: 0 0 auto;
+    }
+  }
+  

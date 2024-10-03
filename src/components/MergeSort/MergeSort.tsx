@@ -3,6 +3,7 @@ import { useState } from "react";
 import { mergeSort } from "../../utils/mergeSort";
 
 import "./MergeSort.css"
+
 const MergeSort: React.FC = () => {
     const [input, setInput] = useState('');
     const [sortedArray, setSortedArray] = useState<number[]>([]);

@@ -1,10 +1,11 @@
 .layout__links {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 10px;
   align-items: center;
-  height: 60px;
   width: 100%;
+  padding: 10px 15px;
 }
 
 .layout__link {

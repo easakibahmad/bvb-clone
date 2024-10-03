@@ -27,6 +27,9 @@ const Layout = () => {
         <Link className="layout__link" to="merge-sort">
           MergeSort
         </Link>
+        <Link className="layout__link" to="flex-one">
+          FlexOne
+        </Link>
       </div>
 
       <div className="layout__outlet">
