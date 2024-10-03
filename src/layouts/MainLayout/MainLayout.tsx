@@ -1,41 +1,41 @@
 import { Link, Outlet } from "react-router-dom";
 
-import "./Layout.css";
+import "./MainLayout.css";
 
-const Layout = () => {
+const MainLayout = () => {
   return (
-    <div className="layout">
-      <div className="layout__links">
-        <Link className="layout__link" to="bvb-nav">
+    <div className="main-layout">
+      <div className="main-layout__links">
+        <Link className="main-layout__link" to="bvb-nav">
           BVBNav
         </Link>
-        <Link className="layout__link" to="nav-lg-dropdown">
+        <Link className="main-layout__link" to="nav-lg-dropdown">
           NavLgDropdown
         </Link>
-        <Link className="layout__link" to="sa-burger">
+        <Link className="main-layout__link" to="sa-burger">
           SABurger
         </Link>
-        <Link className="layout__link" to="beauty-curve-home">
+        <Link className="main-layout__link" to="beauty-curve-home">
           BeautyCurveHome
         </Link>
-        <Link className="layout__link" to="kmp-algo">
+        <Link className="main-layout__link" to="kmp-algo">
           KMPAlgo
         </Link>
-        <Link className="layout__link" to="n-queens">
+        <Link className="main-layout__link" to="n-queens">
           NQueens
         </Link>
-        <Link className="layout__link" to="merge-sort">
+        <Link className="main-layout__link" to="merge-sort">
           MergeSort
         </Link>
-        <Link className="layout__link" to="flex-one">
+        <Link className="main-layout__link" to="flex-one">
           FlexOne
         </Link>
       </div>
 
-      <div className="layout__outlet">
+      <div className="main-layout__outlet">
         <Outlet />
       </div>
-      <div className="layout__footer">
+      <div className="main-layout__footer">
         <img
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Anti-copyright.svg/2048px-Anti-copyright.svg.png"
           alt="copyright"
@@ -53,4 +53,4 @@ const Layout = () => {
   );
 };
 
-export default Layout;
+export default MainLayout;

@@ -1,4 +1,4 @@
-.layout__links {
+.main-layout__links {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -8,17 +8,17 @@
   padding: 10px 15px;
 }
 
-.layout__link {
+.main-layout__link {
   color: white;
   font-weight: bold;
   text-decoration: none;
 }
 
-.layout__link:hover {
+.main-layout__link:hover {
   color: brown;
 }
 
-.layout__outlet {
+.main-layout__outlet {
   padding: 10px;
   background-color: white;
   margin-top: auto;
@@ -29,11 +29,11 @@
   margin: auto auto;
 }
 
-.layout__footer img {
+.main-layout__footer img {
   width: 28px;
   height: 28px;
 }
-.layout__footer {
+.main-layout__footer {
   color: white;
   font-weight: 500;
   font-size: 24px;

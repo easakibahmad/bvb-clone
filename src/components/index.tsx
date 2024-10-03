@@ -5,6 +5,6 @@ import NavLgDropDown from "./NavLgDropdown/NavLgDropdown";
 import NQueens from "./NQueens/NQueens";
 import SABurger from "./SABurger/SABurger";
 import MergeSort from "./MergeSort/MergeSort";
-import FlexOne from "./Flex/FlexOne/FlexOne";
+import { FlexOne } from "./Flex";
 
 export { BeautyCurveHome, BVBNav, KMPAlgo, NavLgDropDown, NQueens, SABurger, MergeSort ,FlexOne};

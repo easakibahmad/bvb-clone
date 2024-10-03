@@ -1,9 +1,9 @@
-import Layout from "./components/Layout/Layout";
+import { MainLayout } from "../../layouts";
 
 const MainPage = () => {
   return (
     <div>
-      <Layout />
+      <MainLayout />
     </div>
   );
 };
