@@ -4,5 +4,6 @@ import KMPAlgo from "./KMPAlgo/KMPAlgo";
 import NavLgDropDown from "./NavLgDropdown/NavLgDropdown";
 import NQueens from "./NQueens/NQueens";
 import SABurger from "./SABurger/SABurger";
+import MergeSort from "./MergeSort/MergeSort";
 
-export { BeautyCurveHome, BVBNav, KMPAlgo, NavLgDropDown, NQueens, SABurger };
+export { BeautyCurveHome, BVBNav, KMPAlgo, NavLgDropDown, NQueens, SABurger, MergeSort };

@@ -9,6 +9,7 @@ import {
   SABurger,
   KMPAlgo,
   NQueens,
+  MergeSort,
 } from "../components";
 
 export const router = createBrowserRouter([
@@ -39,6 +40,10 @@ export const router = createBrowserRouter([
       {
         path: "n-queens",
         element: <NQueens />,
+      },
+      {
+        path: "merge-sort",
+        element: <MergeSort />,
       },
     ],
   },

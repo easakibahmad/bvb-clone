@@ -24,6 +24,9 @@ const Layout = () => {
         <Link className="layout__link" to="n-queens">
           NQueens
         </Link>
+        <Link className="layout__link" to="merge-sort">
+          MergeSort
+        </Link>
       </div>
 
       <div className="layout__outlet">

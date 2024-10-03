@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { backtrack } from "../../utils/nqueens";
+import { backtrack } from "../../utils/nQueens";
 import "./NQueens.css";
 
 const NQueens: React.FC = () => {

@@ -1,0 +1,46 @@
+.merge-sort__container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 500px;
+    margin: auto auto;
+    margin-top: 30px;
+    transition: 1000;
+}
+
+.merge-sort__input{
+    padding: 7px 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 17px;
+    width: 300px;
+   
+}
+
+.merge-sort__input:focus{
+    border: 1px solid rgb(0, 255, 55);
+    outline: none;
+    transition: border 0.4s ease-in-out; 
+}
+
+
+.merge-sort__btn{
+    width: 100px;
+    padding: 7px 12px;
+    border-radius: 10px;
+    background-color:white ;
+    border: 1px solid black;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.merge-sort__btn:hover{
+    border-color: rgb(0, 255, 55);
+    transition: border 0.4s ease-in-out; 
+}
+
+.merge-sort__sorted{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
