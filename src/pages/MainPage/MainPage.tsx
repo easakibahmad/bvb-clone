@@ -1,5 +1,7 @@
 import { MainLayout } from "../../layouts";
 
+import "./MainPage.css";
+
 const MainPage = () => {
   return (
     <div>

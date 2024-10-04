@@ -6,10 +6,12 @@ import { nav } from "./Nav/Nav";
 import { algo } from "./Algo/Algo";
 import { cssSpecial } from "./CssSpecial/CssSpecial";
 
+import { ButtonPrimary } from "../components/Button";
+
 export const router = createBrowserRouter([
   {
     path: "/",
     element: <MainPage />,
-    children: [...nav, ...algo, ...cssSpecial],
+    children: [{path: "/", element: <ButtonPrimary/>},...nav, ...algo, ...cssSpecial],
   },
 ]);

@@ -1,0 +1,44 @@
+.btn__primary {
+    padding: 10px 12px;
+    border: none;
+    border-radius: 7px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    /* Position relative to the container */
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn__container {
+    position: relative;
+    /* Container needs to be relative to hold the button */
+    width: 300px;
+    /* Example container size */
+    height: 150px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    /* Prevents the button from going outside */
+}
+
+/* Define hover directions using pseudo-classes */
+.btn__primary:hover:nth-child(4n+1) {
+    transform: translateX(100%);
+    /* Move right */
+}
+
+.btn__primary:hover:nth-child(4n+2) {
+    transform: translateX(-100%);
+    /* Move left */
+}
+
+.btn__primary:hover:nth-child(4n+3) {
+    transform: translateY(-100%);
+    /* Move up */
+}
+
+.btn__primary:hover:nth-child(4n+4) {
+    transform: translateY(100%);
+    /* Move down */
+}

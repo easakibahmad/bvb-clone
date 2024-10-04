@@ -6,6 +6,9 @@ const MainLayout = () => {
   return (
     <div className="main-layout">
       <div className="main-layout__links">
+        <Link className="main-layout__link" to="/">
+          Playground
+        </Link>
         <Link className="main-layout__link" to="bvb-nav">
           BVBNav
         </Link>
